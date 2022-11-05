@@ -20,6 +20,7 @@ nav {
     background-color: rgb(172, 233, 168);
     width: 100%;
     padding: 1rem;
+    
 }
 
 .nav {
@@ -31,13 +32,31 @@ nav {
 
 main {
     padding: 1rem;
+    margin-bottom: 5rem;
 }
 
 main h2, main h3{
     text-align: center;
+
 }
 
 .refresh {
     padding: 10px 10px;
     text-align: center;
+}
+
+.preview {
+    align-items: center;
+}
+
+.preview img {
+    width: 100%;
+}
+
+.capture, .manual {
+    text-align: center;
+}
+
+.capture button, .manual button{
+    padding: 0.5rem 2rem;
 }
