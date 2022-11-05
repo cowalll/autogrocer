@@ -45,6 +45,22 @@ main h2, main h3{
     text-align: center;
 }
 
+.item {
+    background-color: lightgrey;
+    padding: 0.5rem;
+    border-radius: 5%;
+    margin: 1rem 0rem;
+}
+
+
+.item img {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .preview {
     align-items: center;
     
@@ -56,6 +72,7 @@ main h2, main h3{
 
 .capture, .manual {
     text-align: center;
+    padding: 1rem;
 }
 
 .capture button, .manual button{
