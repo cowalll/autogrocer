@@ -1,0 +1,13 @@
+body {
+    font-family: 'Monospace';
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
