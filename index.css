@@ -1,11 +1,13 @@
 body {
-    font-family: 'Monospace';
+    font-family: 'Montserrat', 'Century Gothic';
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-h1 {
-    text-align: center;
-}
+
+
+
 
 nav {
     position: fixed;
@@ -13,4 +15,10 @@ nav {
     text-align: center;
     background-color: rgb(41, 229, 103);
     width: 100%;
+    
+}
+
+header {
+    background-color: rgb(41, 229, 103);
+    text-align: center;
 }
