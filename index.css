@@ -5,20 +5,30 @@ body {
     border: 0;
 }
 
-
-
-
+header {
+    background-color: rgb(172, 233, 168);
+    text-align: center;
+    padding: 1rem;
+}
 
 nav {
     position: fixed;
     bottom: 0;
     text-align: center;
-    background-color: rgb(41, 229, 103);
+    background-color: rgb(172, 233, 168);
     width: 100%;
     
 }
 
-header {
-    background-color: rgb(41, 229, 103);
+.refresh {
+    padding: 10px 10px;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2, main h3{
     text-align: center;
 }
+
