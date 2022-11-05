@@ -1,5 +1,6 @@
 body {
     font-family: 'Monospace';
+    margin: 0;
 }
 
 h1 {
@@ -10,4 +11,6 @@ nav {
     position: fixed;
     bottom: 0;
     text-align: center;
+    background-color: rgb(41, 229, 103);
+    width: 100%;
 }
