@@ -47,7 +47,7 @@ main h2, main h3{
 
 .item {
     background-color: lightgrey;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border-radius: 5%;
     margin: 1rem 0rem;
 }
@@ -56,6 +56,11 @@ main h2, main h3{
 .item img {
     height: 10rem;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item button {
     margin-left: auto;
     margin-right: auto;
 }
