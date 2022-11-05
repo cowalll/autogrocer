@@ -16,11 +16,10 @@ header {
 nav {
     position: fixed;
     bottom: 0;
-    align-items: center;
     background-color: rgb(172, 233, 168);
     width: 100%;
-    padding: 1rem;
-    
+    padding: 1rem 0rem;
+    text-align: center;
 }
 
 .nav {
@@ -28,6 +27,7 @@ nav {
     text-decoration: none;
     font-size: larger;
     color: black;
+
 }
 
 main {
@@ -47,6 +47,7 @@ main h2, main h3{
 
 .preview {
     align-items: center;
+    
 }
 
 .preview img {
