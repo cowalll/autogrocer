@@ -44,7 +44,43 @@
         <main>
             <h2>Account</h2>
             
+            <div class="acct_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                
+                <h3>Jackie Doe</h3>
+            </div>
 
+            <div class="acct_menu">
+                <a href="account_settings.html">
+                    <button>
+                        Account Settings
+                    </button>
+                </a><br>
+                <button>Inventory Settings</button><br>
+                <button>Secuirty</button><br>
+                <button>Grocery Store Preference</button><br>
+                <button>Legal</button><br>
+                <button>Other</button><br>
+            </div>
+
+            <div class="acct_settings">
+            <h4>Change account details:</h4>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="tel" name="tel"><br><br>
+                    
+                    
+                </form>
+            </div>
 
         </main>
     </body>

@@ -83,3 +83,22 @@ main h2, main h3{
 .capture button, .manual button{
     padding: 0.5rem 2rem;
 }
+
+
+.acct_header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0rem;
+}
+
+.acct_menu {
+    text-align: center;
+}
+
+.acct_menu button{
+    font-size: medium;
+    width: 90%;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+
+}
