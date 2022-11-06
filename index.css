@@ -27,7 +27,11 @@ nav {
     text-decoration: none;
     font-size: larger;
     color: black;
+}
 
+.nav:hover{
+    color: rgb(83, 126, 80);
+    transition-duration: 0.25s;
 }
 
 main {
@@ -65,6 +69,12 @@ main h2, main h3{
     margin-right: auto;
 }
 
+.item button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
+}
+
 
 .preview {
     align-items: center;
@@ -75,6 +85,7 @@ main h2, main h3{
     width: 100%;
 }
 
+
 .capture, .manual {
     text-align: center;
     padding: 1rem;
@@ -84,11 +95,22 @@ main h2, main h3{
     padding: 0.5rem 2rem;
 }
 
+.capture button:hover, .manual button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
+}
+
 
 .acct_header {
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 0rem;
+}
+
+.acct_header:hover{
+    color: rgb(83, 126, 80);
+    transition-duration: 0.25s;
 }
 
 .acct_menu {
@@ -101,4 +123,10 @@ main h2, main h3{
     height: 3rem;
     margin: 0.5rem 0rem;
 
+}
+
+.acct_menu button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
 }
