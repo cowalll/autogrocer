@@ -101,6 +101,9 @@ main h2, main h3{
     transition-duration: 0.25s;
 }
 
+.enter_manual {
+    display: none;
+}
 
 .acct_header {
     display: flex;

@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
-        <script src="index.js" async defer></script>
+        <script src="index.js"></script>
     </head>
 
     <body>
@@ -48,14 +48,22 @@
 
             <div class="capture">
                 <button id="cap_bttn">Capture</button>
-                <p>Scan your product here to add it to your inventory</p>
+                <p>Scan your product here to add it to your inventory</p> 
             </div>
 
             <div class="manual">
                 <p>or...</p>
-                <button id="man_bttn">Enter Manually</button>
+                <button id="man_bttn" onclick="openForm()">Enter Manually</button>
 
-                <div class=""
+                <div class="enter_manual" id="myForm">
+                    <form class="form_container">
+                        <h3>Enter Barcode here:</h3>
+                        <input type="text" placeholder="Barcode Number" name="barcode" required>
+
+                        <button class="manual_button">Submit</button>
+                        <button class="manual_button_cl" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
             </div>
         </main>
     </body>
