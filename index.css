@@ -6,19 +6,127 @@ body {
 }
 
 
-
+header {
+    background-color: rgb(172, 233, 168);
+    text-align: center;
+    padding: 1rem;
+}
 
 
 nav {
     position: fixed;
     bottom: 0;
-    text-align: center;
-    background-color: rgb(41, 229, 103);
+    background-color: rgb(172, 233, 168);
     width: 100%;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.nav {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.nav:hover{
+    color: rgb(83, 126, 80);
+    transition-duration: 0.25s;
+}
+
+main {
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+main h2, main h3{
+    text-align: center;
+
+}
+
+.refresh {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.item {
+    background-color: lightgrey;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+}
+
+
+.item img {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
+}
+
+
+.preview {
+    align-items: center;
     
 }
 
-header {
-    background-color: rgb(41, 229, 103);
+.preview img {
+    width: 100%;
+}
+
+
+.capture, .manual {
     text-align: center;
+    padding: 1rem;
+}
+
+.capture button, .manual button{
+    padding: 0.5rem 2rem;
+}
+
+.capture button:hover, .manual button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
+}
+
+
+.acct_header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0rem;
+}
+
+.acct_header:hover{
+    color: rgb(83, 126, 80);
+    transition-duration: 0.25s;
+}
+
+.acct_menu {
+    text-align: center;
+}
+
+.acct_menu button{
+    font-size: medium;
+    width: 90%;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+
+}
+
+.acct_menu button:hover{
+    background-color: rgb(83, 126, 80);
+    color: white;
+    transition-duration: 0.25s;
 }
