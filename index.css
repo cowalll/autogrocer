@@ -103,6 +103,15 @@ main h2, main h3{
 
 .enter_manual {
     display: none;
+    padding: 1rem;
+}
+
+.enter_manual input{
+    margin: 1rem;
+}
+
+.enter_manual button {
+    width: 25%;
 }
 
 .acct_header {
